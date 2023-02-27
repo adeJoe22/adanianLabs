@@ -6,7 +6,9 @@ const UploadBioData = () => {
   return (
     <>
       <Background>
-        <FormCard></FormCard>
+        <FormCard>
+          <Title></Title>
+        </FormCard>
       </Background>
     </>
   );
@@ -24,3 +26,5 @@ const FormCard = styled.form`
   flex-direction: column;
   align-items: center;
 `;
+
+const Title = styled.div``;
